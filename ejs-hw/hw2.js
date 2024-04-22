@@ -14,5 +14,3 @@ let toppingChoice = {
 }; //object
 let remainingBatter = true; //boolean
 let patelniaOilLevel = "0.75l"; //string
-
-
