@@ -8,7 +8,7 @@ let ingredientList = ["flour", "eggs", "milk", "sugar"]; // array
 let batterVolume = 500; //number
 let servingSize = "40cm"; //string
 let toppingChoice = {
-    sweety: "chocolate",
+    sweet: "chocolate",
     cheesy: "mozzarella",
     fruity: "strawberry"       
 }; //object
