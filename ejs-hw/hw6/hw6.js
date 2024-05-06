@@ -19,15 +19,15 @@ console.log(expression)
 // 3. Пошук у рядку: Визначте, на якій позиції знаходиться слово "світло" та "темрява" у вірші, і перевірте, чи зустрічається слово "світло" на початку чи в кінці рядка.
 let verse = "Світло кінця тунелю, а за спиною лише темрява";
 
-let positionLight = verse.indexOf("Світло");
-let positionDarkness = verse.indexOf("темрява");
-console.log(positionLight);
-console.log(positionDarkness);
+let lightPosition = verse.indexOf("Світло");
+let darkPosition = verse.indexOf("темрява");
+console.log(lightPosition);
+console.log(darkPosition);
 
-let startsWithLight = verse.startsWith("Світло");
-let endsWithLight = verse.endsWith("Світло");
-console.log(startsWithLight);
-console.log(endsWithLight);
+let lightStarts = verse.startsWith("Світло");
+let lightEnds = verse.endsWith("Світло");
+console.log(lightStarts);
+console.log(lightEnds);
 
 // 4. Зміна регістру та заміна частини рядка: Перетворіть всі символи рядка на малі літери, потім замініть слово "сонце" на "місяць".
 let phrase = "Сонце світить яскраво";
