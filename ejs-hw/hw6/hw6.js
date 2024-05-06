@@ -24,10 +24,10 @@ let darkPosition = verse.indexOf("темрява");
 console.log(lightPosition);
 console.log(darkPosition);
 
-let lightStarts = verse.startsWith("Світло");
-let lightEnds = verse.endsWith("Світло");
-console.log(lightStarts);
-console.log(lightEnds);
+let lightStart = verse.startsWith("Світло");
+let lightEnd = verse.endsWith("Світло");
+console.log(lightStart);
+console.log(lightEnd);
 
 // 4. Зміна регістру та заміна частини рядка: Перетворіть всі символи рядка на малі літери, потім замініть слово "сонце" на "місяць".
 let phrase = "Сонце світить яскраво";
