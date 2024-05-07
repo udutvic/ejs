@@ -3,14 +3,14 @@ let film = "Інтерстеллар";
 let genre = "наукова фантастика";
 let year = 2014;
 
-let message1 = "Мій улюблений фільм - " + film + ", жанр: " + genre + ", рік виходу: " + year;
-console.log(message1);
+let stringConcat = "Мій улюблений фільм - " + film + ", жанр: " + genre + ", рік виходу: " + year;
+console.log(stringConcat);
 
-let message2 = `Мій улюблений фільм - ${film}, жанр: ${genre}, рік виходу: ${year}`;
-console.log(message2);
+let templateLiteral = `Мій улюблений фільм - ${film}, жанр: ${genre}, рік виходу: ${year}`;
+console.log(templateLiteral);
 
-let message3 = `Мій улюблений фільм - ${film}`.concat(`, жанр: ${genre}, рік виходу: ${year}`);
-console.log(message3);
+let methodConcat = `Мій улюблений фільм - ${film}`.concat(`, жанр: ${genre}, рік виходу: ${year}`);
+console.log(methodConcat);
 
 // 2. Робота з екрануванням символів: Сформуйте рядок з вашим улюбленим висловом, використовуючи різні типи кавичок і включаючи в нього символи нового рядка та табуляції.
 let expression = "\"Життя\" схоже на \'їзду\' на велосипеді. \n\t\tЩоб утримати \`рівновагу\`, \n\t\ви повинні \"постійно\" рухатися."    
