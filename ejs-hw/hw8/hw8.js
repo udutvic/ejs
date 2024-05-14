@@ -54,7 +54,7 @@ if (month >= 3 && month <= 5) {
 } else if (month === 1 || month === 2 || month === 12) {
     console.log("Зима");
 } else {
-    console.log("Нумерація місяців від 1 до 12");
+    console.log("Нумерація місяців тільки від 1 до 12");
 }
 
 // Оператор switch case
