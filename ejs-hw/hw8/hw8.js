@@ -76,6 +76,7 @@ switch (currency) {
         break;
     default:
         console.log("Не вірно введено валюту");
+        break;
 }
 
 // Тернарний оператор
