@@ -25,12 +25,12 @@ function add(a, b) {
     const operator = prompt("Введіть операцію (+, -, *, /):");
     const num2 = +prompt("Введіть друге число:");
   
-    const operations = {
-      "+": (a, b) => a + b,
-      "-": (a, b) => a - b,
-      "*": (a, b) => a * b,
-      "/": (a, b) => a / b,
-    };
+    onst operations = {
+    "+": add,
+    "-": subtract,
+    "*": multiply,
+    "/": (a, b) => divide(a, b),
+  };
   
     const result =
       operations[operator]
