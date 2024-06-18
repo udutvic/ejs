@@ -25,24 +25,17 @@ function add(a, b) {
     const operator = prompt("Введіть операцію (+, -, *, /):");
     const num2 = +prompt("Введіть друге число:");
   
-    let result;
+    const operations = {
+      "+": (a, b) => a + b,
+      "-": (a, b) => a - b,
+      "*": (a, b) => a * b,
+      "/": (a, b) => a / b,
+    };
   
-    switch (operator) {
-      case "+":
-        result = add(num1, num2);
-        break;
-      case "-":
-        result = subtract(num1, num2);
-        break;
-      case "*":
-        result = multiply(num1, num2);
-        break;
-      case "/":
-        result = divide(num1, num2);
-        break;
-      default:
-        result = "Невідома операція";
-    }
+    const result =
+      operations[operator]
+        ? operations[operator](num1, num2)
+        : "Невідома операція";
   
     alert(`Результат: ${result}`);
   }
