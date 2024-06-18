@@ -25,7 +25,7 @@ function add(a, b) {
     const operator = prompt("Введіть операцію (+, -, *, /):");
     const num2 = +prompt("Введіть друге число:");
   
-    onst operations = {
+    const operations = {
     "+": add,
     "-": subtract,
     "*": multiply,
