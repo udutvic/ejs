@@ -22,8 +22,8 @@ function add(a, b) {
   // Функція-калькулятор
   function calculator() {
     const num1 = +prompt("Введіть перше число:");
-    const operator = prompt("Введіть операцію (+, -, *, /):");
     const num2 = +prompt("Введіть друге число:");
+    const operator = prompt("Введіть операцію (+, -, *, /):");
   
     const operations = {
     "+": add,
