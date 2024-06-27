@@ -41,8 +41,11 @@ console.log(resultFilter);
 
 // Реалізація reduce
 let sum = 0;
-for (let i = 0; i < arr.length; i++) {
+let i = 0;
+
+while (i < arr.length) {
     sum += arr[i];
+    i++;
 }
 
 console.log(sum);  
